@@ -1,0 +1,21 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=GGORDER, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: Gotham Grinds - GGORDER',$
+SEGNAME=ORDER01, SEGTYPE=S1,$
+ FIELD=ORDER_NUMBER, ALIAS=ORDNO1, FORMAT=I6, TITLE='Order,Number',
+   DESC='Order Identification Number',$
+ FIELD=ORDER_DATE, ALIAS=DATE, FORMAT=MDY, TITLE='Order,Date',
+   DESC='Date order was placed',$
+ FIELD=STORE_CODE, ALIAS=STCD, FORMAT=A5, TITLE='Store,Code',
+   DESC='Store Identification Code (for order)',$
+ FIELD=PRODUCT_CODE, ALIAS=PCD, FORMAT=A4, TITLE='Product,Code',
+   DESC='Product Identification Code (for order)',$
+ FIELD=QUANTITY, ALIAS=ORDUNITS, FORMAT=I8, TITLE='Ordered,Units',
+   DESC='Quantity Ordered',$
+SEGNAME=ORDER02, SEGTYPE=KU, PARENT=ORDER01, CRFILE=ggprods, CRKEY=PCD,
+CRSEG=PRODS01  ,$
+ 
+ 

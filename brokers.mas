@@ -1,0 +1,13 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=BROKERS, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: brokers',$
+SEGNAME=BROKERS, SEGTYPE=S
+ FIELD=BROKER_ID, ALIAS=EMPLOYEE_ID, FORMAT=A5,
+  TITLE='  Broker,Employee ID', DESC='Broker Employee ID',INDEX=I,$
+ FIELD=DEPARTMENT, ALIAS=DEPARTMENT, FORMAT=A10, TITLE='Department',
+  DESC='Department',$
+ FIELD=BROKER_NAME, ALIAS=EMPLOYEE_NAME, FORMAT=A25,
+  TITLE='Broker,Name', DESC='Broker Name',$

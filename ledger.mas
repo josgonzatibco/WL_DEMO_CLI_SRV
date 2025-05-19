@@ -1,0 +1,10 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=LEDGER, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: ledger',$
+SEGNAME=TOP, SEGTYPE=S2,$
+ FIELDNAME=YEAR   , , FORMAT=A4, $
+ FIELDNAME=ACCOUNT, , FORMAT=A4, $
+ FIELDNAME=AMOUNT , , FORMAT=I5C,$

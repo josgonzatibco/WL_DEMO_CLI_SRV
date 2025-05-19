@@ -1,0 +1,11 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=COURSES, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: courses - TX variant of course',$
+SEGNAME=CRSESEG1, SEGTYPE=S1,                                 $
+ FIELDNAME=COURSE_CODE, ALIAS=CC,    FORMAT=A6,  FIELDTYPE=I, $
+ FIELDNAME=COURSE_NAME, ALIAS=CN,    FORMAT=A30,              $
+ FIELDNAME=DURATION,    ALIAS=DAYS,  FORMAT=I3,               $
+ FIELDNAME=DESCRIPTION, ALIAS=CDESC, FORMAT=TX50,             $

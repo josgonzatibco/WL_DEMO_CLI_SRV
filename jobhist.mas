@@ -1,0 +1,11 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=JOBHIST, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: jobhist (job history)',$
+SEGNAME=JOBHIST, SEGTYPE=SH2
+ FIELDNAME=PIN,          ALIAS=ID,       FORMAT=A9,      INDEX=I ,$
+ FIELDNAME=JOBSTART,     ALIAS=SDAT,     FORMAT=YMD,              $
+ FIELDNAME=JOBCLASS,     ALIAS=JCLASS,   FORMAT=A8,               $
+ FIELDNAME=FUNCTITLE,    ALIAS=FUNC,     FORMAT=A20,              $

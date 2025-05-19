@@ -1,0 +1,13 @@
+$-------------------------------------------------------------------------------$
+$ Copyright (c) 2001-2023. Cloud Software Group, Inc. All rights reserved.
+$ @MFSM_NOPROLOG@ Source control tag, please ignore and do not delete.
+$-------------------------------------------------------------------------------$
+ 
+FILENAME=TRAINING, SUFFIX=FOC, REMARKS='Legacy Metadata Sample: training',$
+SEGNAME=TRAINING,  SEGTYPE=SH3
+ FIELDNAME=PIN,          ALIAS=ID,       FORMAT=A9,    INDEX=I,   $
+ FIELDNAME=COURSESTART,  ALIAS=CSTART,   FORMAT=YMD,              $
+ FIELDNAME=COURSECODE,   ALIAS=CCOD,     FORMAT=A7,               $
+ FIELDNAME=EXPENSES,     ALIAS=COST,     FORMAT=D8.2,  MISSING=ON,$
+ FIELDNAME=GRADE,        ALIAS=GRA,      FORMAT=A2,    MISSING=ON,$
+ FIELDNAME=LOCATION,     ALIAS=LOC,      FORMAT=A6,    MISSING=ON,$
